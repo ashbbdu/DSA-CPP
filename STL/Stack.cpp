@@ -21,5 +21,7 @@ int main () {
     qu.push(2);
     qu.push(3);
     qu.push(4);
+    cout << qu.front() << " " << qu.back() << endl;
+    qu.pop();
     cout << qu.front() << " " << qu.back();
 }
